@@ -49,8 +49,8 @@ function App() {
             <p>ESP32 + Fingerprint + Google Sheet based Smart Attendance System.</p>
 
             <div className="btn-group">
-              <a className="project-btn" href="https://example.com" target="_blank" rel="noreferrer">Live Demo</a>
-              <a className="project-btn github" href="https://example.com" target="_blank" rel="noreferrer">GitHub</a>
+              <a className="project-btn" href="https://my-portfolio-snowy-pi-18.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+              <a className="project-btn github" href="https://github.com/MDZINNATALI/my-portfolio" target="_blank" rel="noreferrer">GitHub</a>
             </div>
           </div>
 
@@ -59,8 +59,8 @@ function App() {
             <p>Stock, Sales & Invoice Management using Google Sheets Automation.</p>
 
             <div className="btn-group">
-              <a className="project-btn" href="https://example.com" target="_blank" rel="noreferrer">Live Demo</a>
-              <a className="project-btn github" href="https://example.com" target="_blank" rel="noreferrer">GitHub</a>
+              <a className="project-btn" href="https://my-portfolio-snowy-pi-18.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+              <a className="project-btn github" href="https://github.com/MDZINNATALI/my-portfolio" target="_blank" rel="noreferrer">GitHub</a>
             </div>
           </div>
 
@@ -74,8 +74,8 @@ function App() {
             </p>
 
             <div className="btn-group">
-              <a className="project-btn" href="https://example.com" target="_blank" rel="noreferrer">Live Demo</a>
-              <a className="project-btn github" href="https://example.com" target="_blank" rel="noreferrer">GitHub</a>
+              <a className="project-btn" href="https://my-portfolio-snowy-pi-18.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+              <a className="project-btn github" href="https://github.com/MDZINNATALI/my-portfolio" target="_blank" rel="noreferrer">GitHub</a>
             </div>
           </div>
         </div>
@@ -84,14 +84,33 @@ function App() {
       {/* Contact */}
       <section id="contact" className="section contact">
         <h2 className="section-title">📩 Contact</h2>
-        <p className="contact-text">কাজ/প্রজেক্ট বা সহযোগিতা করতে চাইলে মেসেজ দাও 👇</p>
+          <p className="contact-text">
+              কাজ/প্রজেক্ট বা সহযোগিতা করতে চাইলে মেসেজ দাও 👇
+          </p>
 
-        <div className="contact-card">
-          <p><b>Email:</b> yourmail@example.com</p>
-          <p><b>Facebook:</b> fb.com/yourprofile</p>
-          <p><b>GitHub:</b> github.com/yourusername</p>
-        </div>
-      </section>
+          <div className="contact-card">
+            <p>
+              <b>Email:</b>{" "}
+                <a href="mailto:zinnatali356@gmail.com">
+                zinnatali356@gmail.com
+              </a>
+          </p>
+
+          <p>
+            <b>Facebook:</b>{" "}
+             <a href="https://facebook.com/yourprofile" target="_blank" rel="noreferrer">
+              fb.com/yourprofile
+            </a>
+          </p>
+
+           <p>
+           <b>GitHub:</b>{" "}
+             <a href="https://github.com/MDZINNATALI" target="_blank" rel="noreferrer">
+            github.com/MDZINNATALI
+            </a>
+            </p>
+          </div>
+        </section>
 
       <footer className="footer">
         <p>© 2026 MD. ZINNAT ALI | All Rights Reserved</p>
